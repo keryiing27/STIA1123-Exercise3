@@ -8,7 +8,7 @@ public class Accessories {
 	String brand, color,material;
 	double price, size, weight;
 	
-	// create default constructor
+	// create No-Arg Constructor
 	Accessories(){
 		System.out.println("Enter the brand: ");
 		this.brand = sc.nextLine();
